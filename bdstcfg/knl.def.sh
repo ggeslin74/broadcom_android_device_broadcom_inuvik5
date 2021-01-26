@@ -1,0 +1,6 @@
+#!/bin/bash
+
+P_REFSW_DRV_ARCH=arm64
+KERNEL_IMG=Image
+B_REFSW_KERNEL_CROSS_COMPILE_1ST_ARCH=aarch64-linux-
+

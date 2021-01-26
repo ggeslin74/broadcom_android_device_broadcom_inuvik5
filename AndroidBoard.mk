@@ -1,0 +1,16 @@
+LOCAL_PATH := $(my-dir)
+
+include $(LOCAL_PATH)/AndroidPhony.mk
+
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/bootloader.dev.img
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/bootloader.prod.img
+
+ifeq ($(BCM_DIST_KNLIMG_BINS),y)
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/dtbo.inuvik5.img
+endif
+
+ifeq ($(LOCAL_ARM_TRUSTZONE_USE),y)
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/tee.dev.img
+INSTALLED_RADIOIMAGE_TARGET += $(PRODUCT_OUT)/tee.prod.img
+endif
+
