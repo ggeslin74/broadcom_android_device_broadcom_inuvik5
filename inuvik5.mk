@@ -10,6 +10,7 @@ LOCAL_DEVICE_BDIST_TARGET := inuvik5
 TARGET_SAGE_PLATFORM      := inuvik5
 LOCAL_DEVICE_SEPOLICY_IOCTL ?= nvk
 LOCAL_DEVICE_SEPOLICY_BLOCK_INSTANCE := device/broadcom/inuvik5/sepolicy/treble/${LOCAL_DEVICE_SEPOLICY_IOCTL}
+LOCAL_DEVICE_NRDP_OEMMODEL ?= google_inuvik5
 
 # use box mode 1 by default
 LOCAL_DEVICE_RTS_MODE        := 1
