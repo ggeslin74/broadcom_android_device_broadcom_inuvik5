@@ -11,3 +11,6 @@ export LOCAL_DEVICE_SEPOLICY_IOCTL=nvk
 
 # no secdma (bringup)
 export ANDROID_ENABLE_DHD_SECDMA=n
+
+VSI_GAL_DRV=y
+
