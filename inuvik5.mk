@@ -33,6 +33,9 @@ PRODUCT_MODEL                  := inuvik5
 PRODUCT_BRAND                  := google
 PRODUCT_DEVICE                 := inuvik5
 
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.vendor.nx.ml.enabled=1
+
 # Netflix support
 LOCAL_DEVICE_NRDP_MODEL_GROUP := INUVIK5
 LOCAL_DEVICE_NRDP_OEMMODEL ?= google_inuvik5
