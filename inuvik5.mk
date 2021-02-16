@@ -22,6 +22,7 @@ LOCAL_DEVICE_EXT_CAM_CONF := hfps
 
 # use box mode 1 by default
 LOCAL_DEVICE_RTS_MODE        := 1
+HW_HVD_REDUX                 := n
 # do not enable secdma (note: update nxl profile)
 ANDROID_ENABLE_DHD_SECDMA    := n
 # wlan|bt gpio update
