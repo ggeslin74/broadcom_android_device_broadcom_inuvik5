@@ -1,3 +1,3 @@
 require board=inuvik5
-require version-bootloader=v1.68-547-g7568e18bc
+require version-bootloader=v1.69-566-g248b85fdc
 
